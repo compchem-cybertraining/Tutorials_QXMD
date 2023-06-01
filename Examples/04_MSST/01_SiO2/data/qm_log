@@ -1,0 +1,386 @@
+ open file: control/filename
+ open file: control/IN.PARAM
+ open file: control/CONFIG
+ open file: control/CONFIG
+           8  KB (          42  KB ), allocated (param_atom_alloc)
+         152  KB (         194  KB ), allocated (psvariables_alloc)
+ open file: control/CONFIG
+ open file: control/VELOC
+ open file: control/CONFIG
+ open file: control/VELOC
+ open file: control/NCPP/SI.PBE/SI_A.rvs
+ open file: control/NCPP/O.PBE/O_A.rvs
+          30  B  (         194  KB ), allocated (mxl_alloc)
+         185  KB (         379  KB ), allocated (psvariables_mxl_alloc)
+ *** Since ecutorth > ecut or zero, reset ecutorth =   60.0000000000000     
+ *** Since ecutc is zero, reset ecutc =   60.0000000000000     
+ *** FFT meshes have been changed:    67   67   73 --->   70   70   75
+  
+  ---- Ab initio calculation for bulk by PW method ----
+  
+          <<< The standard pseudopotential method >>> 
+  
+     lclust :     F            jgga :     2          lstart :     F
+  electrons :   384           ntype :     2
+     iscfmx :   100          itrial :     0
+     tolpot : 5.0000E-09     tolres : 5.0000E-09   tolHF_KS : 5.0000E-09
+     lhcunt :     T          ihldam :     1          toleig : 1.0000E-10
+  roughfeig :   0.30000   roughfzan :   0.30000
+     itermx :     4         iteremx :     4         kstrial :     0
+   methodcg :     2         threinn : 0.0000E+00    wdinner : 9.0000E-01
+     imxchg :     1            aslh :   0.80000        bslh :   0.64000
+ imxchg_tria:     0      aslh_trial :   0.10000  bslh_trial :   0.64000
+     itratn :    20         cmetric :  20.00000
+    louteig :     F      loutenergy :     F       loutzansa :     F
+    loutlog :     F
+     nstabi :    10          xstabi : 1.0000E+01
+       nd2v :     6           multg :     1           tolcg : 1.0000E-11
+     weigrd :   0.40000      iblock :      5952
+       ifmd :    10            dtmd :     25.00
+  nstep_ini :     0
+    liscale :     F          iscnum :    25          iscstp :    20
+   lmomzero :     F
+       treq :    300.00      ichest :     3           ihest :     3
+      laspc :     F       laspc_chg :     T        laspc_wv :     T
+    lxlbomd :     F         kxlbomd :     0
+ iscfmx_aspc:     1       aspc_corr :   1.00000  tolres_aspc: 1.0000E-06
+  nskp_aspc :     0       aslh_aspc :   0.80000   bslh_aspc :   0.64000
+      lsave :     T         lsreal8 :     T
+    lmulken :     F        nskpmulk :     5       ldecmpovp :     F
+   lspdatom :     F        lpmchgat :     F      lmdecmpdos :     F
+    lsphexp :     F      nskpsphexp :     5       radsphexp :   0.00000
+       leda :     F         nskpeda :     5         radgeda :  10.00000
+   lwannier :     F          iwbnd1 :     0          iwbnd2 :     0
+    iterwan :   200          tolwan : 1.0000E-06
+   nskpwann :     5          iwstt1 :     1          iwstt2 :     0
+    loutuni :     F          natwan :     0
+   freqacmx :   1.00000
+    icband1 :     0         icband2 :     0
+   ichband1 :     0        ichband2 :     0
+   iceband1 :     0        iceband2 :     0
+  immtband1 :     0       immtband2 :     0
+    lstress :     T       nskip_stre:     1          lshdep :     F
+    lintchg :     F       nskip_intc:     5
+     ldpchg :     F       nskip_dpch:     5
+     ldpwav :     F       nskip_dpwa:     5
+     ibstt1 :     1          ibstt2 :   210
+     ldppot :     F       nskip_dppo:     5       nav_dppot :     1
+     lhoteh :     F      nskip_hoteh:     5
+       ecut :     60.00    ecutdens :    120.00    ecutsoft :    120.00
+   ecutorth :     60.00       ecutc :     60.00
+    lvshape :     T         pwscale :   1.20000
+      nkpnt :     1          lgamma :     T          ltetra :     F
+   lksgamma :     F
+      nband :   210          noband :   200       cf. nel/2 :   192
+     lfermi :     3          tfermi :   2000.00       ncion :     0
+     lplcom :     F
+      lkbpp :     T           lvand :     F           lvfull:     F
+      llocl :     F           lpcc  :     T
+    lnlpp_r :     T        llclpp_r :     F          lpcc_r :     T
+    lnlpp_g :     F        llclpp_g :     T          lpcc_g :     F
+    lkbpp_r :     T         lkbpp_g :     F
+    lvand_r :     F         lvand_g :     F
+      lspin :     F
+  
+    hcell (L_1) :  1.66322708E+01 -9.60264600E+00  0.00000000E+00
+          (L_2) :  5.32907052E-15  1.92052920E+01  0.00000000E+00
+          (L_3) :  3.94430453E-31  1.28568595E-15  2.09968450E+01
+           nd1v :   70   70   75
+         nd1vks :   70   70   75
+  
+      zatom   zv   watom  covrad  nhk lmax local lkbppi lvandi lvflag llocli
+ 1:SI  14.0  4.0  28.0855  2.211   24   2    2      T      F      F      F
+ 2:O    8.0  6.0  15.9994  1.247   48   1    0      T      F      F      F
+
+      lking  rking  gkgmax  gkgexct
+      llking rlking glkgmax glkgexct     rctflc
+      lpking rpking gpkgmax gpkgexct lpcci rpcc  rint icscale vrandom
+ 1:SI   T    1.500   1.250   0.500
+        F    1.500   1.150   0.800         9.50
+        T    1.100   1.150   0.800     T   2.00  0.00    1       F
+ 2:O    T    1.500   1.250   0.500
+        F    1.500   1.150   0.800         9.50
+        T    1.100   1.150   0.800     T   1.40  0.00    1       F
+  
+  it=           1
+  nhk1, nhk2=           1          24
+  coordinates
+    1  0.26957100  0.00420800  0.33079600
+    2  0.25964900  0.02077400  0.84278000
+    3  0.24785800  0.49044300  0.34099200
+    4  0.24848600  0.50447700  0.83492500
+    5  0.72889900  0.98342000  0.32450700
+    6  0.77520100  0.00957800  0.84795900
+    7  0.77304400  0.50985700  0.33625400
+    8  0.75714800  0.50857100  0.83142700
+    9  0.98973100  0.23797200  0.17088000
+   10  0.99485700  0.24300000  0.67186000
+   11  0.99926200  0.75309000  0.17238300
+   12  0.01615200  0.77365400  0.67499500
+   13  0.52271800  0.26442300  0.16307400
+   14  0.50019200  0.24828800  0.67055000
+   15  0.47031900  0.74050900  0.15514700
+   16  0.51533500  0.75530700  0.67596100
+   17  0.25296600  0.26678900  0.01415700
+   18  0.24632100  0.24419800  0.50059400
+   19  0.22908800  0.75685900  0.99268900
+   20  0.26078900  0.75980000  0.50539200
+   21  0.76963500  0.26721000  0.00043800
+   22  0.73954600  0.23443600  0.50365700
+   23  0.74128000  0.74231200  0.01086000
+   24  0.76736300  0.76540000  0.50597700
+  velocities
+    1 -0.00005055  0.00027569 -0.00014238
+    2 -0.00007958 -0.00016794 -0.00012807
+    3  0.00015322 -0.00009687 -0.00026898
+    4  0.00001507  0.00000586  0.00018799
+    5 -0.00004755 -0.00012607 -0.00004355
+    6  0.00005261  0.00006686 -0.00014841
+    7  0.00008911 -0.00004543  0.00018471
+    8 -0.00025320 -0.00002330 -0.00006478
+    9  0.00022118  0.00006418 -0.00007457
+   10 -0.00017524 -0.00013546  0.00009053
+   11  0.00021809  0.00000338  0.00000324
+   12 -0.00009531  0.00014664  0.00029779
+   13  0.00003785  0.00014254 -0.00004661
+   14  0.00008618  0.00012791 -0.00004396
+   15 -0.00006182  0.00006805  0.00013155
+   16 -0.00003757 -0.00020861 -0.00009913
+   17 -0.00004024 -0.00005806  0.00012897
+   18 -0.00004477  0.00000589  0.00020608
+   19 -0.00020216  0.00006658 -0.00017356
+   20 -0.00025580 -0.00000510 -0.00006784
+   21 -0.00000499  0.00016291  0.00005208
+   22  0.00016713  0.00025402 -0.00008905
+   23  0.00007922  0.00006694  0.00016407
+   24  0.00020369 -0.00003147  0.00016266
+  it=           2
+  nhk1, nhk2=          25          72
+  coordinates
+   25  0.20888600  0.09760300  0.41774100
+   26  0.22037400  0.12632500  0.92433800
+   27  0.22168200  0.60644500  0.42868200
+   28  0.19962700  0.61292300  0.91021300
+   29  0.72208900  0.09652100  0.41988500
+   30  0.73307600  0.11778900  0.92705700
+   31  0.74331000  0.61505700  0.43530300
+   32  0.71443800  0.60006500  0.93306600
+   33  0.42000800  0.13033200  0.25361400
+   34  0.41987100  0.10802700  0.76506900
+   35  0.34956900  0.58238900  0.21746600
+   36  0.40902700  0.60470800  0.75749500
+   37  0.85275500  0.07967900  0.21866500
+   38  0.92954400  0.09813400  0.76240000
+   39  0.93545700  0.60408300  0.25418200
+   40  0.88867600  0.61937600  0.74609900
+   41  0.42086300  0.31365200  0.08516700
+   42  0.36825800  0.27187300  0.60555500
+   43  0.37219800  0.80470100  0.08870000
+   44  0.40950000  0.80043500  0.59271800
+   45  0.92607100  0.31956200  0.09068200
+   46  0.87532600  0.27635300  0.60065500
+   47  0.85497500  0.77465600  0.12858200
+   48  0.92287400  0.82585800  0.58562000
+   49  0.10183900  0.19814900  0.09938700
+   50  0.07912300  0.20651400  0.56367600
+   51  0.06898300  0.72377500  0.04969500
+   52  0.11337400  0.72546100  0.58821800
+   53  0.62617100  0.22544600  0.08492600
+   54  0.57486900  0.18378800  0.57582100
+   55  0.57914300  0.71531100  0.05575100
+   56  0.61668100  0.71034400  0.59340500
+   57  0.09078500  0.35793200  0.27946300
+   58  0.10970000  0.39255700  0.74716800
+   59  0.13166900  0.90049800  0.23887900
+   60  0.11050900  0.91340400  0.75801000
+   61  0.63952300  0.41909100  0.23946000
+   62  0.61867300  0.40156000  0.73542300
+   63  0.56967500  0.85832900  0.25572400
+   64  0.62916700  0.90054700  0.76342100
+   65  0.31093900  0.40348400  0.42290700
+   66  0.28617700  0.41509800  0.93904600
+   67  0.31215500  0.90188300  0.41752300
+   68  0.29565000  0.90691200  0.91665700
+   69  0.78691900  0.37882500  0.42284400
+   70  0.80629600  0.41138800  0.91488500
+   71  0.79426200  0.89336000  0.40623000
+   72  0.81218600  0.90101800  0.94526900
+  velocities
+   25  0.00038454 -0.00003930  0.00015178
+   26  0.00009023  0.00007600  0.00008698
+   27 -0.00009564  0.00039254  0.00011201
+   28  0.00019509 -0.00019975 -0.00001612
+   29  0.00017692  0.00013214 -0.00006794
+   30 -0.00013664  0.00024822 -0.00002558
+   31  0.00020708  0.00004585 -0.00008829
+   32 -0.00001990 -0.00024060 -0.00009817
+   33 -0.00010930  0.00008483  0.00006837
+   34  0.00005594  0.00006844  0.00020844
+   35  0.00021339  0.00021691  0.00000676
+   36  0.00002065  0.00006923  0.00012432
+   37 -0.00011232 -0.00017171 -0.00003856
+   38 -0.00033645  0.00005215  0.00004903
+   39  0.00012482  0.00019970 -0.00010638
+   40  0.00005277 -0.00023914  0.00014325
+   41 -0.00019863 -0.00012282 -0.00001983
+   42 -0.00026744 -0.00020975  0.00027754
+   43  0.00024526 -0.00005135  0.00012267
+   44 -0.00004281 -0.00019961 -0.00005176
+   45 -0.00022443 -0.00039269  0.00010240
+   46 -0.00010765 -0.00034689 -0.00005317
+   47 -0.00050063 -0.00010286 -0.00002805
+   48 -0.00026414 -0.00014991  0.00018365
+   49 -0.00013368 -0.00001426 -0.00004946
+   50  0.00012740  0.00006984 -0.00033125
+   51 -0.00007883  0.00034561  0.00001194
+   52  0.00001230  0.00014070 -0.00005744
+   53 -0.00004688  0.00014087 -0.00025055
+   54 -0.00011927  0.00018405  0.00020320
+   55  0.00030286  0.00010731 -0.00016424
+   56  0.00015457 -0.00017118 -0.00018072
+   57  0.00005967  0.00005072 -0.00041851
+   58  0.00002538  0.00022182 -0.00004465
+   59  0.00014675  0.00018366  0.00010288
+   60  0.00040309  0.00021080  0.00006992
+   61  0.00015832 -0.00036067 -0.00008696
+   62  0.00010302 -0.00013857  0.00002664
+   63 -0.00002816  0.00004592  0.00013575
+   64 -0.00002640 -0.00043819  0.00022818
+   65  0.00005092 -0.00024629  0.00016670
+   66 -0.00017805 -0.00007222 -0.00047856
+   67 -0.00014295 -0.00011334  0.00005303
+   68  0.00029895 -0.00002069 -0.00028788
+   69 -0.00032500 -0.00007251 -0.00003427
+   70 -0.00011330 -0.00017645 -0.00003676
+   71  0.00006131  0.00017989 -0.00012605
+   72 -0.00001805 -0.00015795  0.00012165
+  read input data    : cpu-time :  6.455000024288893E-003
+         983  KB (           1  MB ), allocated (pwlda_pp_alloc)
+         524  KB (           2  MB ), allocated (pcc_variables_alloc)
+          14  MB, allocated (strvec)
+           7  MB (           8  MB ), allocated (set_rciprl)
+          48  B  (           8  MB ), allocated (nplw3_alloc)
+
+ supercell for the plane wave method
+     a  = (  1.66323E+01, -9.60265E+00,  0.00000E+00)
+     b  = (  5.32907E-15,  1.92053E+01,  0.00000E+00)
+     c  = (  3.94430E-31,  1.28569E-15,  2.09968E+01)
+
+ unit reciprocal cell
+     a* = (  3.77771E-01, -1.04824E-16, -6.77917E-34)
+     b* = (  1.88885E-01,  3.27159E-01, -2.00327E-17)
+     c* = (  0.00000E+00,  0.00000E+00,  2.99244E-01)
+
+ energy cut off
+      ecut(w.f.)=  6.00000000E+01    ecut(c.d.) =  1.20000000E+02
+      ecut(soft)=  1.20000000E+02    ecut(orth) =  6.00000000E+01
+      kmax1 =  23, kmax2 =  23, kmax3 =  25,   nplw =  26320
+      kmax1s=  33, kmax2s=  33, kmax3s=  36,   nplw2=  74496
+      kmax1d=  33, kmax2d=  33, kmax3d=  36,   nplw5=  74496
+                                               nplwc=  26320
+                                               nplw7=  26320
+ fft descreated mesh
+      kfft1 =  70, kfft2 =  70, kfft3 =  75,   kfft0 =   367500
+      kfft1d=  70, kfft2d=  70, kfft3d=  75,   kfft0d=   367500
+
+  set reciprocal vectors : cpu-time :  6.021300144493580E-002
+           8  B  (           8  MB ), allocated (
+ planewave_decomp_variables_alloc)
+           3  KB (           8  MB ), allocated (nlpp_variables_alloc(2))
+           2  MB (          10  MB ), allocated (nlppr_variables_alloc)
+         767  KB, allocated (rdtmpp)
+ open file: control/NCPP/SI.PBE/SI_S1.rvs
+ open file: control/NCPP/SI.PBE/SI_P3.rvs
+ open file: control/NCPP/SI.PBE/SI_D5.rvs
+ open file: control/NCPP/SI.PBE/SI_val
+ open file: control/NCPP/O.PBE/O_S1.rvs
+ open file: control/NCPP/O.PBE/O_P3.rvs
+ open file: control/NCPP/O.PBE/O_val
+         767  KB, deallocated (rdtmpp)
+           4  MB (          14  MB ), allocated (lopp_variables_alloc)
+       16016  B, allocated (lotmpp_g)
+         714  KB, allocated (nlkbpp)
+ open file: control/NCPP/SI.PBE/SI_S1.nwp
+ open file: control/NCPP/SI.PBE/SI_P3.nwp
+ open file: control/NCPP/O.PBE/O_P3.nwp
+         714  KB, deallocated (nlkbpp)
+          64  B  (          14  MB ), allocated (pwlda_proc_alloc)
+           3  KB (          14  MB ), allocated (pwlda_iod_alloc)
+          21  KB (          14  MB ), allocated (pwlda_atom_alloc)
+           5  KB (          14  MB ), allocated (nlkbppr_variables_alloc)
+          16  KB (          14  MB ), allocated (force_nlc_alloc)
+           1  MB (          15  MB ), allocated (nlkbpp_variables_alloc)
+         288  B  (          15  MB ), allocated (iatmpt_nod_alloc)
+          11  MB (          27  MB ), allocated (pwlda_alloc)
+         946  MB (         973  MB ), allocated (pwlda_alloc(2))
+           8  KB (         973  MB ), allocated (fermi_alloc)
+          10  KB (         973  MB ), allocated (mxchgg_alloc)
+          20  MB (         994  MB ), allocated (mxchgg_alloc(2))
+           1  MB (         995  MB ), allocated (slmir_alloc)
+           1  MB (         996  MB ), allocated (slmir_atm_alloc)
+ open file: data/qm_eig.d
+ open file: data/qm_ion.d
+ open file: data/qm_eng.d
+ open file: data/qm_zan.d
+ open file: data/qm_box.d
+ open file: data/qm_cel.d
+ open file: data/qm_frc.d
+ open file: data/qm_fer.d
+ open file: data/qm_str.d
+  set parameters     : cpu-time :  0.341967985033989     
+          16  B  (         996  MB ), allocated (pwlda_grid_alloc)
+           4  KB (         996  MB ), allocated (pwlda_mgrid_alloc)
+          95  MB (        1090  MB ), allocated (pwlda_mgrid_alloc(2))
+           9  MB (        1099  MB ), allocated (cfftmsh_alloc)
+  No. of global FD meshes :      367500
+  set mesh points (FD->FFT) : cpu-time :  7.550120353698730E-004
+  set mesh points    : cpu-time :  9.917020797729492E-003
+  initial wave functions
+  initial wave functions by random numbers
+                    set wavefunctions : cpu-time :  0.214950978755951     
+  initial electron density
+  Initial density is calculated from atomic charge density.
+         131  KB, allocated (denini)
+         131  KB, deallocated (denini)
+  No. of electrons (2) =   380.376955696712       0.000000000000000E+000
+  error in chknel: No. of electrons =   380.376955696712     
+                     : cpu-time :  0.227020025253296     
+  unify chg. density : cpu-time :  8.299946784973145E-004
+     c.d.tr.(r to g) : cpu-time :  8.216977119445801E-003
+     c.d.tr.(g to r) : cpu-time :  5.093991756439209E-003
+  No. of electrons :   384.000000000003     
+  No. of electrons (2) =   384.000000000000       0.000000000000000E+000
+      set c.d. total : cpu-time :  0.241901993751526     
+    Ewald:   rccc   7.90032861057157     
+    Ewald:   lhfull F
+    Ewald:   ALP     4.34652701135636     
+    Ewald:   gamma  0.550170407537250     
+    Ewald:   DKMAX2  0.461415048826898     
+    Ewald:   KMAXM          14
+           1  MB, allocated (clmrcp)
+    Ewald:   num =       12194
+    Ewald:   numk2 =        4421
+         615  KB (        1100  MB ), allocated (clmrcp)
+    Ewald:   KCSMAX1,2,3          13          13          14
+         132  KB (        1100  MB ), allocated (clmrcp(2))
+  initialize Ewald   : cpu-time :  2.775013446807861E-003
+         285  KB (        1100  MB ), allocated (struc_atoms_alloc(2))
+  initialize g-space and/or USPP calc. : cpu-time :  1.829862594604492E-004
+                all to all (bd-to-gd) : cpu-time :  1.651000976562500E-002
+  Gram-Schmidt       
+                         set S-matrix : cpu-time :  0.785325050354004     
+                     Cholesky decomp. :          :  1.272916793823242E-003
+                             updating :          :  0.814581990242004     
+                                total : cpu-time :   1.60117995738983     
+  
+  
+============================== step:           0 ==============================
+  
+ *** lmixhold = .false. / aslh = 0.8000
+          45  KB (        1100  MB ), allocated (vpp_ncl_alloc)
+  *** nlcmx1&2 :     7151436     3253434       50505
+          74  MB (        1174  MB ), allocated (nlcmx_alloc)
+          11  MB (        1185  MB ), allocated (nlcvector_alloc)
+  
+     E(HF) (Ryd.)   E(KS) (Ryd.)  diff /el.  diff2/el.  zansa2        sec
+ 0:  1.3141546E+04  1.2405763E+04 2.6042E+07 1.9161E+00 2.4897E+02    7.207

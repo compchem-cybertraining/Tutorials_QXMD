@@ -1,0 +1,307 @@
+ open file: control/filename
+ open file: control/IN.PARAM
+ open file: control/CONFIG
+ open file: control/CONFIG
+           2  KB (          13  KB ), allocated (param_atom_alloc)
+         152  KB (         165  KB ), allocated (psvariables_alloc)
+ open file: control/CONFIG
+ open file: control/CONFIG
+ open file: control/NCPP/MO.PBE/MO_A.rvs
+ open file: control/NCPP/SE.PBE/SE_A.rvs
+          30  B  (         165  KB ), allocated (mxl_alloc)
+         185  KB (         350  KB ), allocated (psvariables_mxl_alloc)
+ *** Since ecutorth > ecut or zero, reset ecutorth =   40.0000000000000     
+ *** Since ecutc is zero, reset ecutc =   40.0000000000000     
+  
+  ---- Ab initio calculation for bulk by PW method ----
+  
+          <<< The standard pseudopotential method >>> 
+              with an empirical correction for vdW (DFT-D)
+              based on time-dependent density-functional theory (TDDFT) 
+              with fewest switching surface hopping (FSSH) 
+  
+     lclust :     F            jgga :     2          lstart :     F
+ ltddft_star:     F         dttddft :   0.02000  lfssh_switc:     T
+ lfssh_gsscf:     T      lfssh_gsfrc:     F
+ imxchg_fssh:     1       aslh_fssh :   0.80000   bslh_fssh :   0.13000
+ lfssh_rando:     F         tdbroad :      0.00  lfssh_paral:     F
+ rseed_fssh :   1757742615.00000     
+ lfssh_boltz:     T      lfssh_vscal:     F        tminimum :      0.00
+ ltddft_nscf:     T
+  electrons :    72           ntype :     2
+     iscfmx :   100          itrial :     0
+     tolpot : 3.0000E-08     tolres : 5.0000E-08   tolHF_KS : 5.0000E-09
+     lhcunt :     T          ihldam :     1          toleig : 1.0000E-10
+  roughfeig :   0.30000   roughfzan :   0.30000
+     itermx :     4         iteremx :     4         kstrial :     0
+   methodcg :     2         threinn : 0.0000E+00    wdinner : 9.0000E-01
+     imxchg :     1            aslh :   0.80000        bslh :   0.64000
+ imxchg_tria:     0      aslh_trial :   0.10000  bslh_trial :   0.64000
+     itratn :    10         cmetric :  20.00000
+    louteig :     F      loutenergy :     F       loutzansa :     F
+    loutlog :     F
+     nstabi :    10          xstabi : 1.0000E+01
+       nd2v :     6           multg :     1           tolcg : 1.0000E-11
+     weigrd :   0.40000      iblock :     26041
+       ifmd :     3            dtmd :     25.00
+  nstep_ini :     0
+    liscale :     F          iscnum :    25          iscstp :    20
+   lmomzero :     F
+       treq :    300.00      ichest :     3           ihest :     3
+      laspc :     F       laspc_chg :     T        laspc_wv :     T
+    lxlbomd :     F         kxlbomd :     0
+ iscfmx_aspc:     1       aspc_corr :   1.00000  tolres_aspc: 1.0000E-06
+  nskp_aspc :     0       aslh_aspc :   0.80000   bslh_aspc :   0.64000
+      lsave :     T         lsreal8 :     T
+    lmulken :     F        nskpmulk :     5       ldecmpovp :     F
+   lspdatom :     F        lpmchgat :     F      lmdecmpdos :     F
+    lsphexp :     F      nskpsphexp :     5       radsphexp :   0.00000
+       leda :     F         nskpeda :     5         radgeda :  10.00000
+   lwannier :     F          iwbnd1 :     0          iwbnd2 :     0
+    iterwan :   200          tolwan : 1.0000E-06
+   nskpwann :     5          iwstt1 :     1          iwstt2 :     0
+    loutuni :     F          natwan :     0
+   freqacmx :   1.00000
+    icband1 :     0         icband2 :     0
+   ichband1 :     0        ichband2 :     0
+   iceband1 :     0        iceband2 :     0
+  immtband1 :     0       immtband2 :     0
+    lstress :     F       nskip_stre:     5          lshdep :     F
+    lintchg :     F       nskip_intc:     5
+     ldpchg :     F       nskip_dpch:     5
+     ldpwav :     T       nskip_dpwa:   101
+    wv_xmin :      1.00     wv_xmax :      0.00     wv_ymin :      1.00
+    wv_ymax :      0.00     wv_zmin :      1.00     wv_zmax :      0.00
+ lcompress_d:     T      ndigit_dpwa:     3
+     ibstt1 :    36          ibstt2 :    37
+     ldppot :     F       nskip_dppo:     5       nav_dppot :     1
+     lhoteh :     F      nskip_hoteh:     5
+       ecut :     40.00    ecutdens :    160.00    ecutsoft :    160.00
+   ecutorth :     40.00       ecutc :     40.00
+    lvshape :     F         pwscale :   1.00000
+      nkpnt :     1          lgamma :     T          ltetra :     F
+   lksgamma :     F
+      nband :    48          noband :    40       cf. nel/2 :    36
+     lfermi :     3          tfermi :    500.00       ncion :     0
+     lplcom :     F
+      lkbpp :     T           lvand :     F           lvfull:     F
+      llocl :     F           lpcc  :     T
+    lnlpp_r :     T        llclpp_r :     F          lpcc_r :     T
+    lnlpp_g :     F        llclpp_g :     T          lpcc_g :     F
+    lkbpp_r :     T         lkbpp_g :     F
+    lvand_r :     F         lvand_g :     F
+      lspin :     F
+  
+    hcell (L_1) :  1.24013268E+01  0.00000000E+00  0.00000000E+00
+          (L_2) : -6.20066340E+00  1.07398640E+01  0.00000000E+00
+          (L_3) :  1.90925368E-15  3.30692438E-15  3.11804788E+01
+           nd1v :   49   49  125
+         nd1vks :   49   49  125
+  
+  Occupation changes in TDDFT (only available when ltddft_start=.false.)
+   nocc_change :            4
+   numband        occ_new
+      35           0.0000
+      36           0.0000
+      37           2.0000
+      38           2.0000
+  
+      zatom   zv   watom  covrad  nhk lmax local lkbppi lvandi lvflag llocli
+ 1:MO  42.0  6.0  95.9400  2.438    4   2    0      T      F      F      F
+ 2:SE  34.0  6.0  78.9600  2.211    8   2    0      T      F      F      F
+
+      lking  rking  gkgmax  gkgexct
+      llking rlking glkgmax glkgexct     rctflc
+      lpking rpking gpkgmax gpkgexct lpcci rpcc  rint icscale vrandom
+ 1:MO   T    1.500   1.250   0.800
+        F    1.500   1.150   0.800         9.50
+        T    1.500   1.150   0.800     T   2.00  0.00    1       T
+ 2:SE   T    1.500   1.250   0.500
+        F    1.500   1.150   0.800         9.50
+        T    1.100   1.150   0.800     T   1.80  0.00    1       T
+  
+  it=           1
+  nhk1, nhk2=           1           4
+  coordinates
+    1  0.16656600  0.33324400  0.24999500
+    2  0.66687500  0.33341100  0.25000000
+    3  0.16650700  0.83328300  0.25001200
+    4  0.66669200  0.83342100  0.24999600
+  velocities
+    1  0.00000000  0.00000000  0.00000000
+    2  0.00000000  0.00000000  0.00000000
+    3  0.00000000  0.00000000  0.00000000
+    4  0.00000000  0.00000000  0.00000000
+  it=           2
+  nhk1, nhk2=           5          12
+  coordinates
+    5  0.33377700  0.16694500  0.14695000
+    6  0.83303400  0.16649900  0.14687200
+    7  0.33348700  0.66678100  0.14695800
+    8  0.83312500  0.66648000  0.14690300
+    9  0.33374200  0.16692700  0.35305700
+   10  0.83311200  0.16654400  0.35312200
+   11  0.33346900  0.66675100  0.35303400
+   12  0.83291300  0.66635400  0.35310200
+  velocities
+    5  0.00000000  0.00000000  0.00000000
+    6  0.00000000  0.00000000  0.00000000
+    7  0.00000000  0.00000000  0.00000000
+    8  0.00000000  0.00000000  0.00000000
+    9  0.00000000  0.00000000  0.00000000
+   10  0.00000000  0.00000000  0.00000000
+   11  0.00000000  0.00000000  0.00000000
+   12  0.00000000  0.00000000  0.00000000
+  read input data    : cpu-time :  1.043100003153086E-002
+         983  KB (           1  MB ), allocated (pwlda_pp_alloc)
+         524  KB (           2  MB ), allocated (pcc_variables_alloc)
+          11  MB, allocated (strvec)
+           5  MB (           7  MB ), allocated (set_rciprl)
+          11  MB, deallocated (strvec)
+          48  B  (           7  MB ), allocated (nplw3_alloc)
+
+ supercell for the plane wave method
+     a  = (  1.24013E+01,  0.00000E+00,  0.00000E+00)
+     b  = ( -6.20066E+00,  1.07399E+01,  0.00000E+00)
+     c  = (  1.90925E-15,  3.30692E-15,  3.11805E+01)
+
+ unit reciprocal cell
+     a* = (  5.06654E-01,  2.92517E-01, -6.20473E-17)
+     b* = (  0.00000E+00,  5.85034E-01, -6.20473E-17)
+     c* = (  0.00000E+00,  0.00000E+00,  2.01510E-01)
+
+ energy cut off
+      ecut(w.f.)=  4.00000000E+01    ecut(c.d.) =  1.60000000E+02
+      ecut(soft)=  1.60000000E+02    ecut(orth) =  4.00000000E+01
+      kmax1 =  12, kmax2 =  12, kmax3 =  31,   nplw =   8851
+      kmax1s=  24, kmax2s=  24, kmax3s=  62,   nplw2=  70871
+      kmax1d=  24, kmax2d=  24, kmax3d=  62,   nplw5=  70871
+                                               nplwc=   8851
+                                               nplw7=   8851
+ fft descreated mesh
+      kfft1 =  49, kfft2 =  49, kfft3 = 125,   kfft0 =   300125
+      kfft1d=  49, kfft2d=  49, kfft3d= 125,   kfft0d=   300125
+
+  set reciprocal vectors : cpu-time :  5.599599890410900E-002
+           8  B  (           7  MB ), allocated (
+ planewave_decomp_variables_alloc)
+           3  KB (           7  MB ), allocated (nlpp_variables_alloc(2))
+           2  MB (           8  MB ), allocated (nlppr_variables_alloc)
+         767  KB, allocated (rdtmpp)
+ open file: control/NCPP/MO.PBE/MO_S1.rvs
+ open file: control/NCPP/MO.PBE/MO_P3.rvs
+ open file: control/NCPP/MO.PBE/MO_D5.rvs
+ open file: control/NCPP/MO.PBE/MO_val
+ open file: control/NCPP/SE.PBE/SE_S1.rvs
+ open file: control/NCPP/SE.PBE/SE_P3.rvs
+ open file: control/NCPP/SE.PBE/SE_D5.rvs
+ open file: control/NCPP/SE.PBE/SE_val
+         767  KB, deallocated (rdtmpp)
+           2  MB (          11  MB ), allocated (lopp_variables_alloc)
+       16016  B, allocated (lotmpp_g)
+       16016  B, deallocated (lotmpp_g)
+         714  KB, allocated (nlkbpp)
+ open file: control/NCPP/MO.PBE/MO_P3.nwp
+ open file: control/NCPP/MO.PBE/MO_D5.nwp
+ open file: control/NCPP/SE.PBE/SE_P3.nwp
+ open file: control/NCPP/SE.PBE/SE_D5.nwp
+         714  KB, deallocated (nlkbpp)
+          64  B  (          11  MB ), allocated (pwlda_proc_alloc)
+         768  B  (          11  MB ), allocated (pwlda_iod_alloc)
+           4  KB (          11  MB ), allocated (pwlda_atom_alloc)
+         864  B  (          11  MB ), allocated (nlkbppr_variables_alloc)
+           3  KB (          11  MB ), allocated (force_nlc_alloc)
+          41  KB (          11  MB ), allocated (nlkbpp_variables_alloc)
+          48  B  (          11  MB ), allocated (iatmpt_nod_alloc)
+          10  MB (          21  MB ), allocated (pwlda_alloc)
+          88  MB (         109  MB ), allocated (pwlda_alloc(2))
+           2  KB (         109  MB ), allocated (fermi_alloc)
+           3  KB (         109  MB ), allocated (mxchgg_alloc)
+           3  MB (         112  MB ), allocated (mxchgg_alloc(2))
+           1  MB (         113  MB ), allocated (tddft_fssh_pw_alloc)
+           7  MB (         120  MB ), allocated (tddft_fssh_pw_alloc (2))
+          41  KB (         120  MB ), allocated (slmir_alloc)
+          41  KB (         120  MB ), allocated (slmir_atm_alloc)
+         155  KB (         120  MB ), allocated (tddft_fssh_alloc)
+ open file: data/qm_eig.d
+ open file: data/qm_ion.d
+ open file: data/qm_eng.d
+ open file: data/qm_zan.d
+ open file: data/qm_box.d
+ open file: data/qm_cel.d
+ open file: data/qm_frc.d
+ open file: data/qm_fer.d
+ open file: data/qm_td_eig.d
+ Parameters for DFT-D
+  it=           1  c6,R0=   641.856805369020        3.09726089528086     
+  it=           2  c6,R0=   328.863802994098        3.34670472577327     
+         384  B  (         120  MB ), allocated (setdftd)
+  set parameters     : cpu-time :  0.248038992285728     
+          16  B  (         120  MB ), allocated (pwlda_grid_alloc)
+           4  KB (         120  MB ), allocated (pwlda_mgrid_alloc)
+          80  MB (         200  MB ), allocated (pwlda_mgrid_alloc(2))
+           6  MB (         206  MB ), allocated (cfftmsh_alloc)
+  No. of global FD meshes :      300125
+  set mesh points (FD->FFT) : cpu-time :  1.557976007461548E-003
+  set mesh points    : cpu-time :  1.417499780654907E-002
+  initial wave functions
+  initial wave functions by random numbers
+                    set wavefunctions : cpu-time :  3.567999601364136E-002
+  initial electron density
+  Initial density is calculated from atomic charge density.
+         131  KB, allocated (denini)
+         131  KB, deallocated (denini)
+  No. of electrons (2) =   69.3293386837609       0.000000000000000E+000
+  error in chknel: No. of electrons =   69.3293386837609     
+                     : cpu-time :  0.151412963867188     
+  unify chg. density : cpu-time :  0.000000000000000E+000
+     c.d.tr.(r to g) : cpu-time :  5.730032920837402E-003
+     c.d.tr.(g to r) : cpu-time :  5.249023437500000E-003
+  No. of electrons :   71.9999999999998     
+  No. of electrons (2) =   72.0000000000003      -3.558361184797675E-003
+      set c.d. total : cpu-time :  0.163902997970581     
+        -269  KB (         206  MB ), deallocated (psvariables_dealloc)
+    Ewald:   rccc   5.10143542350080     
+    Ewald:   lhfull F
+    Ewald:   ALP     4.39534190491929     
+    Ewald:   gamma  0.861589246954152     
+    Ewald:   DKMAX2   1.09769700035954     
+    Ewald:   KMAXM          32
+           1  MB, allocated (clmrcp)
+    Ewald:   num =       23692
+    Ewald:   numk2 =        9983
+           1  MB (         207  MB ), allocated (clmrcp)
+    Ewald:   KCSMAX1,2,3          12          12          32
+           1  MB, deallocated (clmrcp)
+          22  KB (         207  MB ), allocated (clmrcp(2))
+  initialize Ewald   : cpu-time :  3.821969032287598E-003
+          43  KB (         207  MB ), allocated (struc_atoms_alloc(2))
+  initialize g-space and/or USPP calc. : cpu-time :  2.801418304443359E-005
+                all to all (bd-to-gd) : cpu-time :  1.241981983184814E-003
+  Gram-Schmidt       
+                         set S-matrix : cpu-time :  9.046018123626709E-003
+                     Cholesky decomp. :          :  3.600120544433594E-005
+                             updating :          :  7.739007472991943E-003
+                                total : cpu-time :  1.682102680206299E-002
+  
+  
+============================== step:           0 ==============================
+  
+ *** lmixhold = .false. / aslh = 0.8000
+           8  KB (         207  MB ), allocated (vpp_ncl_alloc)
+  *** nlcmx1&2 :     4167264     1076546       54834
+          40  MB (         246  MB ), allocated (nlcmx_alloc)
+          12  MB (         259  MB ), allocated (nlcvector_alloc)
+  
+     E(HF) (Ryd.)   E(KS) (Ryd.)  diff /el.  diff2/el.  zansa2        sec
+ 0:  1.1269245E+03  1.0598983E+03 1.3889E+08 9.3092E-01 1.1045E+02    1.200
+ 1: -2.3177039E+02 -3.1428284E+02 1.8871E+01 1.1460E+00 2.5686E+01    3.839
+ 2: -4.9906802E+02 -5.2705219E+02 3.7125E+00 3.8867E-01 5.7124E+00    2.983
+ 3: -5.9747976E+02 -5.8651268E+02 1.3668E+00 1.5232E-01 1.1246E+00    3.010
+ 4: -6.1759060E+02 -6.0417905E+02 2.7932E-01 1.8627E-01 2.3654E-01    2.954
+ 5: -6.2386780E+02 -6.0838330E+02 8.7183E-02 2.1506E-01 5.4197E-02    3.486
+ 6: -6.2470796E+02 -6.1300418E+02 1.1669E-02 1.6255E-01 1.2889E-02    3.296
+ 7: -6.2427290E+02 -6.1779369E+02 6.0426E-03 8.9989E-02 4.4971E-03    3.705
+ 8: -6.2415094E+02 -6.1650120E+02 1.6938E-03 1.0625E-01 1.1232E-03    3.712
+ 9: -6.2405940E+02 -6.1798007E+02 1.2715E-03 8.4435E-02 3.8899E-04    3.691
+10: -6.2383942E+02 -6.1930618E+02 3.0553E-03 6.2962E-02 2.4211E-04    3.673

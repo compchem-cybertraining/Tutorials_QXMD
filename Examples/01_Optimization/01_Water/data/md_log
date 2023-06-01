@@ -1,0 +1,90 @@
+ Program starting at 14:27:36.246 on 2021/06/11
+ Starting--nodes =            2
+ open file(in get_nps): control/filename
+ open file(in get_nps): control/IN.PARAM
+ QM / MD --nodes =            2           1
+     myid myid_md myid_qm myid_qm_un myid_kd myid_un myid_pw myid_lr
+       0       0       0       0          0       0       0       0
+       1               1       0          1       0       0       0
+ open file: control/filename
+ open file: control/IN.PARAM
+ open file: control/CONFIG
+ open file: control/CONFIG
+           6  KB (           6  KB ), allocated (remd_param_atom_alloc)
+ open file: control/CONFIG
+ open file: control/CONFIG
+          93  B  (           6  KB ), allocated (remd_param_atom2_alloc)
+          64  B  (           6  KB ), allocated (remd_thermostat_alloc)
+          64  B  (           6  KB ), allocated (remd_atom_thermostat_alloc)
+  
+  ----      Ab initio MD calculation with PW method      ----
+  
+     lstart :     F          iogpsz :     1
+       ntmd :     2           ntype :     2       ntmd_clus :     0
+   ntmd_ist :     2
+    ntot(0) :     3           natom :     3        nmd_clus :     0
+     lmdout :     T          ioskip :     1      lrestrict_a:     F
+     locoor :     T          lovelo :     T          loforc :     T
+ ioskipcoor :     1      ioskipvelo :     1      ioskipforc :     1
+       ifmd :     1            dtmd :      0.10       nstop :   100
+    lmdstop :     F
+  nstep_ini :     0
+    ioptmze :     2            lpvv :     F
+   dist_max :   0.50000
+ ibfgsclear :     0         qnstabi : 0.0000E+00   gammamin : 1.0000E-01
+ ioptmze_cel:    -1
+    liscale :     F          iscnum :    25          iscstp :    20
+   lmomzero :     F
+       treq :    300.00
+      lstat :     F         latomic :     F      nskip_atomi:     1
+ tol_energy : 1.0000E-07  tol_force : 5.0000E-04
+    lstress :     F       nskip_stre:     5      nskp_strs_o:     0
+    ltotmom :     F       nskip_totm:     5
+      lsave :     T         lsreal8 :     T
+  rc_buffer :     0.0000
+  nmd_alloc :   105      nmd_buffer :     1
+  
+    h(MD) (L_1) :  1.32280819E+01  0.00000000E+00  0.00000000E+00
+          (L_2) :  8.09986409E-16  1.32280819E+01  0.00000000E+00
+          (L_3) :  8.09986409E-16  8.09986409E-16  1.32280819E+01
+    hcell (L_1) :  1.32280819E+01  0.00000000E+00  0.00000000E+00
+     (QM) (L_2) :  8.09986409E-16  1.32280819E+01  0.00000000E+00
+          (L_3) :  8.09986409E-16  8.09986409E-16  1.32280819E+01
+  
+ * MD atoms
+      zatom    watom            ntot icscale vrandom lfixion is2ist
+ 1:O    8.0  1.59994E+01           1    1       T       F       1
+ 2:H    1.0  1.00794E+00           2    1       T       F       2
+      ficmass ldispion dvector
+ 1:O     1.00   F
+ 2:H     1.00   F
+  (reduced species)
+ 1:O    8.0
+ 2:H    1.0
+  
+ * QM atoms
+      zatom    watom            ntot icscale lterminator
+ 1:O    8.0  1.59994E+01           1    1       F
+ 2:H    1.0  1.00794E+00           2    1       F
+  
+  read data (remd)   : cpu-time :  3.125905990600586E-003
+           8  KB (          14  KB ), allocated (remd_atom_alloc)
+         204  B  (          14  KB ), allocated (remd_qmmd_alloc)
+ open file: data/md_eng.d
+ open file: data/md_box.d
+ open file: data/md_cel.d
+ open file: data/md_spc.d
+ open file: data/md_ion.d
+ open file: data/md_frc.d
+  setup data ... done : cpu-time :  0.275378942489624     
+  
+                    setup coordinates : cpu-time :  2.384185791015625E-005
+           classical forces  ... done : cpu-time :  1.907348632812500E-005
+                  QM forces  ... done : cpu-time :   1.47036504745483     
+      0 -1.6614295588E+01
+        7.7718028946E-01
+  
+                              MD step : cpu-time :   1.47050595283508     
+  
+                    setup coordinates : cpu-time :  3.194808959960938E-005
+           classical forces  ... done : cpu-time :  2.098083496093750E-005

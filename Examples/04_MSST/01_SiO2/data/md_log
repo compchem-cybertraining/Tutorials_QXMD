@@ -1,0 +1,94 @@
+ Program starting at 13:41:36.728 on 2021/06/11
+ Starting--nodes =            1
+ open file(in get_nps): control/filename
+ open file(in get_nps): control/IN.PARAM
+ QM / MD --nodes =            1           1
+     myid myid_md myid_qm myid_qm_un myid_kd myid_un myid_pw myid_lr
+       0       0       0       0          0       0       0       0
+ open file: control/filename
+ open file: control/IN.PARAM
+ open file: control/CONFIG
+ open file: control/CONFIG
+          16  KB (          16  KB ), allocated (remd_param_atom_alloc)
+ open file: control/CONFIG
+ open file: control/VELOC
+ open file: control/CONFIG
+ open file: control/VELOC
+          93  B  (          16  KB ), allocated (remd_param_atom2_alloc)
+          64  B  (          16  KB ), allocated (remd_thermostat_alloc)
+          64  B  (          16  KB ), allocated (remd_atom_thermostat_alloc)
+  
+  ----      Ab initio MD calculation with PW method      ----
+  
+     lstart :     F          iogpsz :     1
+       ntmd :     2           ntype :     2       ntmd_clus :     0
+   ntmd_ist :     2
+    ntot(0) :    72           natom :    72        nmd_clus :     0
+     lmdout :     F          ioskip :     1      lrestrict_a:     F
+       ifmd :    10            dtmd :     50.00       nstop :  2000
+    lmdstop :     F
+  nstep_ini :     0
+    ioptmze :     2            lpvv :     F
+ ioptmze_cel:    -1
+    liscale :     F          iscnum :    25          iscstp :    20
+   lmomzero :     F
+       treq :    300.00
+      hpext :      0.00
+    tbomega :   2500.00      blkmod :     40.00      vxmsst : 0.0000E+00
+ lmsstscale :     F       msstscnum :    20       msstscstp :   500
+      lstat :     F         latomic :     F      nskip_atomi:     1
+    lstress :     T       nskip_stre:     1      nskp_strs_o:     1
+    ltotmom :     F       nskip_totm:     5
+      lsave :     T         lsreal8 :     T
+  rc_buffer :     0.0000
+  nmd_alloc :   209      nmd_buffer :     1
+  
+    h(MD) (L_1) :  1.66322708E+01 -9.60264600E+00  0.00000000E+00
+          (L_2) :  5.32907052E-15  1.92052920E+01  0.00000000E+00
+          (L_3) :  3.94430453E-31  1.28568595E-15  2.09968450E+01
+    hcell (L_1) :  1.66322708E+01 -9.60264600E+00  0.00000000E+00
+     (QM) (L_2) :  5.32907052E-15  1.92052920E+01  0.00000000E+00
+          (L_3) :  3.94430453E-31  1.28568595E-15  2.09968450E+01
+  
+ shock speed (a.u., m/s) :   3.199708E-03     7000.00
+            nshockv(1:3) :    2    1    0
+               alpmatrix :   1.000000E+00   3.552714E-16   0.000000E+00
+                             5.000000E-01   1.776357E-16   0.000000E+00
+                             0.000000E+00   0.000000E+00   0.000000E+00
+               betmatrix :   1.776357E-16  -3.552714E-16   0.000000E+00
+                            -5.000000E-01   1.000000E+00   0.000000E+00
+                             0.000000E+00   0.000000E+00   1.000000E+00
+  
+ * MD atoms
+      zatom    watom            ntot icscale vrandom lfixion is2ist
+ 1:SI  14.0  2.80855E+01          24    1       F       F       1
+ 2:O    8.0  1.59994E+01          48    1       F       F       2
+      ficmass ldispion dvector
+ 1:SI    1.00   F
+ 2:O     1.00   F
+  (reduced species)
+ 1:SI  14.0
+ 2:O    8.0
+  
+ * QM atoms
+      zatom    watom            ntot icscale lterminator
+ 1:SI  14.0  2.80855E+01          24    1       F
+ 2:O    8.0  1.59994E+01          48    1       F
+  
+  read data (remd)   : cpu-time :  2.857999876141548E-003
+          17  KB (          33  KB ), allocated (remd_atom_alloc)
+         756  B  (          34  KB ), allocated (remd_qmmd_alloc)
+ open file: data/md_eng.d
+ open file: data/md_box.d
+ open file: data/md_cel.d
+ open file: data/md_str.d
+ open file: data/md_str_diag.d
+ open file: data/md_hug.d
+  initial temp.             :   302.3028
+ 
+  bmass [a.u. / kg^2 m^-4] =  8.43567488E+04  8.92675766E-15
+ 
+  setup data ... done : cpu-time :   2.48253896785900     
+  
+                    setup coordinates : cpu-time :  3.504753112792969E-005
+           classical forces  ... done : cpu-time :  2.312660217285156E-005
